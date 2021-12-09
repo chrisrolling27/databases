@@ -25,6 +25,6 @@ connection.connect(function(err) {
   console.log('Connected!');
 });
 
-console.log('does this work?');
 
-connection.end();
+
+module.exports = connection;
